@@ -1,0 +1,21 @@
+{
+  "name": "muuzza",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "start": "pnpm -r start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.23.0",
+  "devDependencies": {
+    "turbo": "^2.6.1"
+  }
+}
